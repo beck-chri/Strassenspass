@@ -1,0 +1,280 @@
+#root {
+    -fx-background-color: WHITE;
+}
+#button2 {
+    -fx-background-color: #77FF6D;
+    -fx-min-width: 400.0;
+    -fx-min-height: 80.0;
+    -fx-font-size: 30.0;
+    -fx-text-fill: BLACK;
+    -fx-font-weight:bold;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+#button2:hover {
+    -fx-background-color: #77FF6D;
+    -fx-text-fill: WHITE;
+}
+#button1 {
+    -fx-background-color: #8AA5F1;
+    -fx-min-width: 400.0;
+    -fx-min-height: 80.0;
+    -fx-font-size: 30.0;
+    -fx-text-fill: BLACK;
+    -fx-font-weight:bold;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+#button1:hover {
+    -fx-background-color: #8AA5F1;
+    -fx-text-fill: WHITE;
+}
+#button3 {
+    -fx-background-color: #FF79D8;
+    -fx-min-width: 400.0;
+    -fx-min-height: 80.0;
+    -fx-font-size: 30.0;
+    -fx-text-fill: BLACK;
+    -fx-font-weight:bold;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+#button3:hover {
+    -fx-background-color: #FF79D8;
+    -fx-text-fill: WHITE;
+}
+#button4 {
+    -fx-background-color: #8AA5F1;
+    -fx-min-width: 100.0;
+    -fx-min-height: 50.0;
+    -fx-font-size: 15.0;
+    -fx-text-fill: BLACK;
+    -fx-font-weight:bold;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+#button4:hover {
+    -fx-background-color: #8AA5F1;
+    -fx-text-fill: WHITE;
+}
+#button5 {
+    -fx-background-color: #77FF6D;
+    -fx-min-width: 80.0;
+    -fx-min-height: 80.0;
+    -fx-font-size: 15.0;
+    -fx-text-fill: BLACK;
+    -fx-font-weight:bold;
+    -fx-background-radius: 100px;
+    -fx-border-radius: 100px;
+}
+#button5:hover {
+    -fx-background-color: #77FF6D;
+    -fx-text-fill: WHITE;
+}
+#button6 {
+    -fx-background-color: #F7FF1D;
+    -fx-min-width: 200.0;
+    -fx-min-height: 50.0;
+    -fx-font-size: 15.0;
+    -fx-text-fill: BLACK;
+    -fx-font-weight:bold;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+#button6:hover {
+    -fx-background-color: #F7FF1D;
+    -fx-text-fill: WHITE;
+}
+#button7 {
+    -fx-background-color: #FF2B2B;
+    -fx-min-width: 80.0;
+    -fx-min-height: 80.0;
+    -fx-font-size: 15.0;
+    -fx-text-fill: BLACK;
+    -fx-font-weight:bold;
+    -fx-background-radius: 100px;
+    -fx-border-radius: 100px;
+}
+#button7:hover {
+    -fx-background-color: #FF2B2B;
+    -fx-text-fill: WHITE;
+}
+.icon-button{
+    -fx-min-width: 30.0;
+    -fx-min-height: 30.0;
+    -fx-max-width: 30.0;
+    -fx-max-height: 30.0;
+    -fx-background-color: transparent;
+    -fx-background-size: 25 25;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat no-repeat; 
+}
+#drehen-button{
+    -fx-background-image: url("../images/drehen.png");
+}
+.mid-icon-button{
+    fx-min-width: 50.0;
+    -fx-min-height: 50.0;
+    -fx-max-width: 50.0;
+    -fx-max-height: 50.0;
+    -fx-background-color: transparent;
+    -fx-background-size: 45 45;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat no-repeat; 
+}
+#akzeptieren-button {
+    -fx-background-image: url("../images/akzeptieren.png");
+}
+#bewegen-button {
+    -fx-background-image: url("../images/bewegen.png");
+}
+#entfernen-button {
+    -fx-background-image: url("../images/entfernen.png");
+}
+#big-drehen-button {
+    fx-min-width: 60.0;
+    -fx-min-height: 60.0;
+    -fx-max-width: 60.0;
+    -fx-max-height: 60.0;
+    -fx-background-color: transparent;
+    -fx-background-size: 55 55;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat no-repeat; 
+}
+#big-drehen-button:hover {
+    -fx-background-image: url("../images/drehen.png");
+}
+#menu-view {
+    -fx-alignment: center;
+    -fx-label-margin: 60.0;
+    -fx-spacing: 40.0;    
+}
+#ueberschrift {
+    -fx-font-size: 80.0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#S {
+    -fx-font-size: 80.0;
+    -fx-text-fill: #77FF6D;
+    -fx-font-weight: bold;
+}
+#P {
+    -fx-font-size: 80.0;
+    -fx-text-fill: #8AA5F1;
+    -fx-font-weight: bold;
+}
+#A {
+    -fx-font-size: 80.0;
+    -fx-text-fill: #FF79D8;
+    -fx-font-weight: bold;
+}
+#SS {
+    -fx-font-size: 80.0;
+    -fx-text-fill: #F7FF1D;
+    -fx-font-weight: bold;
+}
+#ueberschrift2 {
+    -fx-font-size: 40.0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;     
+}
+#S2 {
+    -fx-font-size: 40.0;
+    -fx-text-fill: #77FF6D;
+    -fx-font-weight: bold; 
+}
+#P2 {
+    -fx-font-size: 40.0;
+    -fx-text-fill: #8AA5F1;
+    -fx-font-weight: bold; 
+}
+#A2 {
+    -fx-font-size: 40.0;
+    -fx-text-fill: #FF79D8;
+    -fx-font-weight: bold; 
+}
+#SS2 {
+    -fx-font-size: 40.0;
+    -fx-text-fill: #F7FF1D;
+    -fx-font-weight:bold;
+ 
+}
+#text {
+    -fx-font-size: 20.0;
+    -fx-text-fill: black;
+    -fx-font-weight:bold;
+}
+#plan{
+    -fx-border-color: GREY;
+    -fx-border-width: 1px;          
+    -fx-backgorund-color: WHITE;
+}
+#anleitung-view {
+    -fx-font-size: 20.0;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+}
+#leer {
+    -fx-background-color: #69FFB4;
+}
+#info {
+    -fx-font-size: 15.0;
+    -fx-text-fill: black;
+}
+#endetext {
+    -fx-font-size: 15.0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#kleinertext {
+    -fx-font-size: 15.0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-text-alignment:center;
+}
+#kleineBlaueBox {
+    -fx-background-color: #8AA5F1;
+    -fx-min-width: 300.0;
+    -fx-min-height: 200.0;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+#blaueBox {
+    -fx-background-color: #8AA5F1;
+    -fx-min-width: 800.0;
+    -fx-min-height: 400.0;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+#roteBox {
+    -fx-background-color: #FF2B2B;
+    -fx-min-width: 300.0;
+    -fx-min-height: 180.0;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    
+}
+#textfeld {
+    -fx-border-color: #FF79D8;
+    -fx-font-size: 15.0;
+}
+.table-view {
+    -fx-base: white;
+    -fx-control-inner-background: #8AA5F1;
+    -fx-background-color: #8AA5F1;
+    -fx-table-header-border-color: white;
+    -fx-font-size: 20.0;
+    -fx-text-fill: WHITE;
+    -fx--control-inner-text-alignment:center; 
+}
+.table-cell {
+   -fx-alignment: center;     
+}
+.table-row-cell {
+    -fx-selection-bar: #F7FF1D;
+}
+.table-cell:hover {
+   -fx-alignment: center;     
+   -fx-control-inner-background: black;
+}
